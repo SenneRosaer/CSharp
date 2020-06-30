@@ -1,0 +1,13 @@
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.csprojAssemblyReference.cache
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.AssemblyInfoInputs.cache
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.AssemblyInfo.cs
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\CSharp\Pi2\Pi2\bin\Debug\netcoreapp3.1\Pi2.exe
+D:\CSharp_Projects\CSharp\Pi2\Pi2\bin\Debug\netcoreapp3.1\Pi2.deps.json
+D:\CSharp_Projects\CSharp\Pi2\Pi2\bin\Debug\netcoreapp3.1\Pi2.runtimeconfig.json
+D:\CSharp_Projects\CSharp\Pi2\Pi2\bin\Debug\netcoreapp3.1\Pi2.runtimeconfig.dev.json
+D:\CSharp_Projects\CSharp\Pi2\Pi2\bin\Debug\netcoreapp3.1\Pi2.dll
+D:\CSharp_Projects\CSharp\Pi2\Pi2\bin\Debug\netcoreapp3.1\Pi2.pdb
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.dll
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.pdb
+D:\CSharp_Projects\CSharp\Pi2\Pi2\obj\Debug\netcoreapp3.1\Pi2.genruntimeconfig.cache
