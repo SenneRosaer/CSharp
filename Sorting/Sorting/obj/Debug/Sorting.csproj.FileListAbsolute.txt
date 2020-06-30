@@ -1,0 +1,10 @@
+D:\CSharp_Projects\CSharp\Sorting\Sorting\bin\Debug\Sorting.exe.config
+D:\CSharp_Projects\CSharp\Sorting\Sorting\bin\Debug\Sorting.exe
+D:\CSharp_Projects\CSharp\Sorting\Sorting\bin\Debug\Sorting.pdb
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.csprojAssemblyReference.cache
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.Main.resources
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.Properties.Resources.resources
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.csproj.GenerateResource.cache
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.exe
+D:\CSharp_Projects\CSharp\Sorting\Sorting\obj\Debug\Sorting.pdb
