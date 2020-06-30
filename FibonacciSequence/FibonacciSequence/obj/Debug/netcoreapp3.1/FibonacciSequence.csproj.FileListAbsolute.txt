@@ -1,0 +1,12 @@
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\bin\Debug\netcoreapp3.1\FibonacciSequence.exe
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\bin\Debug\netcoreapp3.1\FibonacciSequence.deps.json
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\bin\Debug\netcoreapp3.1\FibonacciSequence.runtimeconfig.json
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\bin\Debug\netcoreapp3.1\FibonacciSequence.runtimeconfig.dev.json
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\bin\Debug\netcoreapp3.1\FibonacciSequence.dll
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\bin\Debug\netcoreapp3.1\FibonacciSequence.pdb
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\obj\Debug\netcoreapp3.1\FibonacciSequence.AssemblyInfoInputs.cache
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\obj\Debug\netcoreapp3.1\FibonacciSequence.AssemblyInfo.cs
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\obj\Debug\netcoreapp3.1\FibonacciSequence.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\obj\Debug\netcoreapp3.1\FibonacciSequence.dll
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\obj\Debug\netcoreapp3.1\FibonacciSequence.pdb
+D:\CSharp_Projects\CSharp\FibonacciSequence\FibonacciSequence\obj\Debug\netcoreapp3.1\FibonacciSequence.genruntimeconfig.cache
