@@ -16,7 +16,8 @@ namespace Sorting
     {
         List<int> items = new List<int>();
         List<int> merge_items = new List<int>();
-        
+
+        List<List<List<int>>> visualisation = new List<List<List<int>>>();
         public Main()
         {
             InitializeComponent();
@@ -83,11 +84,29 @@ namespace Sorting
             merge_input.Text = "";
         }
 
-        private void merge_sort_Click(object sender, EventArgs e)
+        private async void merge_sort_Click(object sender, EventArgs e)
         {
+            visualisation.Add(new List<List<int>> { merge_items });
             merge_items = merge_sort_algo(merge_items);
-            merge_list.DataSource = null;
-            merge_list.DataSource = merge_items;
+            while (visualisation.Count > 0)
+            {
+                var head = visualisation[0];
+                visualisation.RemoveAt(0);
+                List<string> display = new List<string>();
+                foreach(var animation in head)
+                {
+                    foreach(int item in animation)
+                    {
+                        display.Add(item.ToString());
+                    }
+                    display.Add("");
+                }
+                await Task.Delay(2000);
+                merge_list.DataSource = null;
+                merge_list.DataSource = display;
+            }
+            
+
 
         }
 
@@ -101,12 +120,41 @@ namespace Sorting
                 List<int> right = new List<int>();
                 right = array.GetRange(middleArray, (array.Count - middleArray));
 
+                if (visualisation.Count == 1)
+                {
+                    List<List<int>> tmp_vis = new List<List<int>>();
+                    tmp_vis.Add(left);
+                    tmp_vis.Add(right);
+                    visualisation.Add(tmp_vis);
+                }
+                else
+                {
+                    List<List<int>> tmp_vis = new List<List<int>>();
+                    foreach (List<int> item in visualisation.Last())
+                    {
+                        if (item == array)
+                        {
+                            tmp_vis.Add(left);
+                            tmp_vis.Add(right);
+
+                        }
+                        else
+                        {
+                            tmp_vis.Add(item);
+                        }
+
+                    }
+                    visualisation.Add(tmp_vis);
+
+                }
+
+
+
+
                 left = merge_sort_algo(left);
                 right = merge_sort_algo(right);
 
-                int i = 0;
-                int j = 0;
-                int x = 0;
+                
 
                 List<int> L_copy = new List<int>(left);
                 List<int> R_copy = new List<int>(right);
@@ -136,6 +184,22 @@ namespace Sorting
                     }
                 }
 
+                List<List<int>> tmp_vis2 = new List<List<int>>();
+
+                foreach (List<int> item in visualisation.Last())
+                {
+                    if(item == left)
+                    {
+                        tmp_vis2.Add(tmp);
+                    } else if (item == right)
+                    {
+                      
+                    } else
+                    {
+                        tmp_vis2.Add(item);
+                    }
+                }
+                visualisation.Add(tmp_vis2);
                 array = tmp;
             }
 
